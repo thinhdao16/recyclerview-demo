@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_700"
+    android:padding="20dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dehaze_icon"
+        android:src="@drawable/ic_baseline_dehaze_24"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shop"
+        android:id="@+id/toolbar_title"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/dehaze_icon"
+        android:textColor="@color/white"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_icon"
+        android:src="@drawable/ic_baseline_search_24"
+        android:layout_marginLeft="250dp"    />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/shopping_icon"
+        android:src="@drawable/ic_baseline_shopping_cart_24"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>
+
+</RelativeLayout>
